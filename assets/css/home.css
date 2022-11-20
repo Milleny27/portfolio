@@ -1,0 +1,58 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.futura__imagem {
+    width: 50rem;
+}
+
+.container__home {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ola__home {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.nome__home {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.cargo__home {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.bio__home {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.btn__curriculo {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    border: 1px solid #fff;
+    background-color: #23232e;
+    color: #fff;
+}

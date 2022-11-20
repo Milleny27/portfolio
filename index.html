@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milleny | Desenvolvedora full stack</title>
-    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/sobre-mim.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/formacao.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="menu">
@@ -18,21 +32,170 @@
                 <div class="line3 menu__mobile-div"></div>
             </div>
             <ul class="menu__list">
-                <li class="menu__item"><a href="/" class="menu__link">Home</a></li>
-                <li class="menu__item"><a href="/" class="menu__link">Sobre mim</a></li>
-                <li class="menu__item"><a href="/" class="menu__link">Skills</a></li>
-                <li class="menu__item"><a href="/" class="menu__link">Formação</a></li>
-                <li class="menu__item"><a href="/" class="menu__link">Projetos</a></li>
-                <li class="menu__item"><a href="/" class="menu__link">Contato</a></li>
+                <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="#sobre-mim" class="menu__link">Sobre mim</a></li>
+                <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+                <li class="menu__item"><a href="#formacao" class="menu__link">Formação</a></li>
+                <li class="menu__item"><a href="#projetos" class="menu__link">Projetos</a></li>
+                <li class="menu__item"><a href="#contato" class="menu__link">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
 
-        </section>
+    <section class="home" id="home">
+            <div class="container__home">
+                <div class="texto__home">
+                    <h3 class="ola__home">Olá! Sou</h3>
+                    <h2 class="nome__home">Milleny</h2>
+                    <p class="cargo__home">Desenvolvedora full stack</p>
+                    <p class="bio__home">Sou formada em técnica em informática e atualmente graduanda em Análise e Desenvolvimento de Sistemas.
+                    </p>
+                </div>
+                <div class="botoes__home">
+                    <button class="btn__curriculo">Baixar currículo</button>
+                </div>
+                <div class="redes-sociais__home">
+                    <a href="https://www.linkedin.com/in/millenyellen"><i class="bx-fw bx-sm bx bxl-linkedin-square"></i></a>
+                    <a href="https://github.com/Milleny27"><i class="bx-fw bx-sm bx bxl-github"></i></a>
+                </div>
+            </div>
+            <div class="futura__imagem"></div>
+    </section>
 
-    </main>
+    <section class="sobre-mim" id="sobre-mim">
+            <div>
+                <h3 class="sobre-mim__titulo">Sobre mim</h3>
+                <p></p>
+            </div>
+    </section>
+
+    <section class="skills" id="skills">
+            <h2 class="titulo__skills">Skills</h2>
+            <div class="container__skills">
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/html.svg" alt="logo HTML">
+                    <h5 class="skills__titulo-lp">HTML 5</h5>
+                </div>
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/css.svg" alt="logo CSS">
+                    <h5 class="skills__titulo-lp">CSS 3</h5>
+                </div>
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/javascript.svg" alt="logo JavaScript">
+                    <h5 class="skills__titulo-lp">JavaScript</h5>
+                </div>
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/git.svg" alt="logo git">
+                    <h5 class="skills__titulo-lp">GIT</h5>
+                </div>
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/github.svg" alt="logo github">
+                    <h5 class="skills__titulo-lp">GitHub</h5>
+                </div>
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/trello.svg" alt="logo Trello">
+                    <h5 class="skills__titulo-lp">Trello</h5>
+                </div>
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/java.svg" alt="logo java">
+                    <h5 class="skills__titulo-lp">Java</h5>
+                </div>
+                <div class="caixa">
+                    <img class="logo__lp" src="./assets/imgs/spring.svg" alt="logo Spring Boot">
+                    <h5 class="skills__titulo-lp">Spring</h5>
+                </div>
+            </div>
+    </section>
+
+    <section class="formacao" id="formacao">
+            <h2 class="titulo__formacao">Formação Acadêmica</h2>
+            <div class="container__formacao">
+                <div class="caixa__formacao">
+                    <img class="logo__formacao" src="./assets/imgs/logo-if.png" alt="logo if campus muzambinho">
+                    <h3 class="curso__formacao">Técnico em informática</h3>
+                    <p class="ano__formacao">2018 - 2021</p>
+                </div>
+                <div class="caixa__formacao">
+                    <img class="logo__formacao" src="./assets/imgs/logo-puc.png" alt="logo puc minas">
+                    <h3 class="curso__formacao">Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="ano__formacao">2022 - Em andamento</p>
+                </div>
+                <div class="caixa__formacao">
+                    <img class="logo__formacao" src="./assets/imgs/logo-one.png" alt="logo puc minas">
+                    <h3 class="curso__formacao">Full-Stack Developer</h3>
+                    <p class="ano__formacao">2022 - Em andamento</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="experiencia-profissional" id="projetos">
+        <h2 class="titulo__projetos">Experiência Profissional</h2>
+        <div class="container__projetos">
+            <div class="caixa__projetos">
+                <img class="img__projeto" src="" alt="">
+                <h3 class="nome__projetos">Lorem Ipsum</h3>
+                <p class="descricao__projetos">Lorem Ipsum</p>
+                <div class="botoes__projeto">
+                    <button class="btn-repo"><img class="show" src="./assets/imgs/github-icon.png" alt="icon show">Repo</button>
+                    <button class="btn-demo"><img class="show" src="./assets/imgs/show.png" alt="icon show">Demo</button>
+                </div>
+            </div>
+            <!--
+               <div class="caixa__projetos">
+                <img class="img__projeto" src="" alt="">
+                <h3 class="nome__projetos"></h3>
+                <p class="descricao__projetos"></p>
+                <div class="botoes__projeto">
+                    <button class="btn-repo"></button>
+                    <button class="btn-demo"></button>
+                </div>
+            </div> 
+            -->
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+            <h2 class="titulo__contato">Contato</h2>
+            <form action="">
+                <fieldset>
+                    <p class="mensagem__contato">Quer entrar em contato comigo? </p>
+                    <p class="mensagem__contato">
+                        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                    </p>
+                    <input name="nome" class="input" type="text" placeholder="Nome" required>
+                    <input name="email" class="input" type="text" placeholder="E-mail" required>
+                    <input name="assunto" class="input" type="text" placeholder="Assunto" required>
+                    <textarea name="mensagem" class="textarea" placeholder="Mensagem" required></textarea>
+                    <button class="btn-contato">Enviar mensagem</button>
+                </fieldset>
+            </form>
+    </section>
+
+    <footer class="footer" id="footer">
+            <div>
+                <a class="menu__link--footer" href="#home"><h2 class="footer__titulo">Milleny</h2></a>
+            </div>
+            <div class="links__footer">
+                <ul class="menu__list--footer">
+                    <li class="menu__item--footer"><a href="#home" class="menu__link--footer">Home</a></li>
+                    <li class="menu__item--footer"><a href="/" class="menu__link--footer">Sobre mim</a></li>
+                    <li class="menu__item--footer"><a href="/" class="menu__link--footer">Skills</a></li>
+                    <li class="menu__item--footer"><a href="/" class="menu__link--footer">Formação</a></li>
+                    <li class="menu__item--footer"><a href="/" class="menu__link--footer">Projetos</a></li>
+                    <li class="menu__item--footer"><a href="/" class="menu__link--footer">Contato</a></li>
+                </ul>
+            </div>
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/millenyellen"><i class="bx-fw bx-sm bx bxl-linkedin-square"></i></a>
+                <a href="https://github.com/Milleny27"><i class="bx-fw bx-sm bx bxl-github"></i></a>
+            </div>
+            <div class="copyright">
+                <span>Copyright © | Coded </span>
+                <span>by</span>
+                <span>Milleny</span>
+            </div>
+    </footer>
+
     <script src="./assets/js/mobile-navibar.js"></script>
 </body>
 </html>

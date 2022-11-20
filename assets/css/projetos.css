@@ -1,0 +1,100 @@
+.experiencia-profissional {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo__projetos {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.container__projetos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.caixa__projetos {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #23232e;
+    background: #fff;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
+.img__projeto {
+    width: 18rem;
+    height: 13rem;
+}
+
+.nome__projetos {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400 bold;
+    font-size: 20px;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.descricao__projetos {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.botoes__projeto {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-repo {
+    padding: 5px;
+    border-radius: 10px;
+    width: 8rem;
+    margin-top: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    border: 1px solid #fff;
+    background-color: #23232e;
+    color: #fff;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-demo {
+    padding: 4px;
+    border-radius: 10px;
+    width: 8rem;
+    margin-top: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    border: 1px solid #23232e;
+    background-color: #fff;
+    color: #23232e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.show {
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}

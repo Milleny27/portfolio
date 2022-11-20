@@ -2,3 +2,48 @@
     margin: 0;
     padding: 0;
 }
+
+#home {
+    background: #23232e;
+    height: auto;
+    padding: 2rem;
+}
+
+.bx-fw {
+    color: #fff;
+    padding: 10px;
+}
+
+#sobre-mim {
+    background: #fff;
+    height: 10vh;
+}
+
+#skills { 
+    background: #23232e;
+    height: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+#formacao {
+    background: #fff;
+    height: auto;
+    padding: 2rem;
+}
+
+#projetos {
+    background: #fff;
+    height: auto;
+    padding: 2rem;
+}
+
+#contato {
+    background: #23232e;
+    height: auto;
+    padding: 2rem;
+}
+
+#footer {
+    height: auto;
+    padding: 2rem;
+}

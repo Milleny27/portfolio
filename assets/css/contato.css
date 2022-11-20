@@ -1,0 +1,77 @@
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo__contato {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.mensagem__contato {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input {
+    color: #fff;
+    width: 40rem;
+    height: auto;
+    padding: 1rem;
+    width: 90%;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400 bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.textarea {
+    width: 90%;
+    height: 100px;
+    padding: 1rem;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400 bold;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 0;
+    resize: none;
+}
+
+.btn-contato {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    border: 1px solid #fff;
+    background-color: #23232e;
+    color: #fff;
+}
