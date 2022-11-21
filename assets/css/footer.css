@@ -1,5 +1,5 @@
 .footer {
-    background: #23232e;
+    background: #323232;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,7 +10,7 @@
     font-size: 1.5rem;
     text-decoration: none;
     letter-spacing: 4px;
-    color: #fff;
+    color: #A7CCBF;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
 }
@@ -55,4 +55,5 @@
     font-size: 0.75rem;
     letter-spacing: 1px;
     font-weight: 400;
+    color: #fff;
 }

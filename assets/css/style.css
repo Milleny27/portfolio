@@ -4,7 +4,7 @@
 }
 
 #home {
-    background: #23232e;
+    background: #323232;
     height: auto;
     padding: 2rem;
 }
@@ -15,30 +15,30 @@
 }
 
 #sobre-mim {
-    background: #fff;
+    background: #191919;
     height: 10vh;
 }
 
 #skills { 
-    background: #23232e;
+    background: #323232;
     height: auto;
     padding: 2rem 0 2rem 0;
 }
 
 #formacao {
-    background: #fff;
+    background: #191919;
     height: auto;
     padding: 2rem;
 }
 
 #projetos {
-    background: #fff;
+    background: #323232;
     height: auto;
     padding: 2rem;
 }
 
 #contato {
-    background: #23232e;
+    background: #191919;
     height: auto;
     padding: 2rem;
 }
