@@ -76,8 +76,7 @@
 
 .border-gradiente:hover {
     background-image: linear-gradient(to right, #7209B7, #F72585, #3A0CA3);
-    animation:slidebg 2s linear infinite;
-    animation: slidebg 5s linear infinite;
+    animation:slidebg 3s linear infinite;
 }
 
 .border-gradiente:hover .title-gradient {
