@@ -23,6 +23,7 @@
 
     --size-title: 24px;
     --size-p: 18px;
+    --size-subtitle: 14px;
 
     --font-family: "Poppins", sans-serif;
 }
@@ -65,6 +66,22 @@ section {
 .swiper {
     --swiper-theme-color: var(--pink);
   }
+
+.title_section {
+    position: relative;
+    font-weight: 700;
+    color: var(--pink);
+}
+
+.title_section::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    width: 30px;
+    height: 3px;
+    background-color: var(--pink);
+}
 
 @media (max-width: 900px) {
     :root {

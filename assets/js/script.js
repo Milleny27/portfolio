@@ -12,6 +12,31 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const work1Label = document.querySelector(".work1Label");
+  const work2Label = document.querySelector(".work2Label");
+  const work1 = document.querySelector(".work1");
+  const work2 = document.querySelector(".work2");
+
+  work1Label.addEventListener("click", () => {
+    if (work2.classList.contains('show_details')) { 
+      work2.classList.remove('show_details');
+      work2Label.classList.remove('active');
+    }
+    work1Label.classList.toggle("active");
+    work1.classList.toggle("show_details");
+  });
+
+  work2Label.addEventListener("click", () => {
+    if (work1.classList.contains('show_details')) {
+      work1.classList.remove('show_details');
+      work1Label.classList.remove('active');
+    }
+    work2Label.classList.toggle("active");
+    work2.classList.toggle("show_details");
+  });
+});
+
 const swiper = new Swiper(".swiper", {
     slidesPerView: 3,
     spaceBetween: 20,

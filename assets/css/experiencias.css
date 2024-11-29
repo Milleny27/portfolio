@@ -1,0 +1,139 @@
+@import "style.css";
+
+.experiencias {
+    position: relative;
+    padding: 3rem 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencias_container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px 20px;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.tab_header {
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tab_header > div {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: var(--size-p);
+    font-weight: 400;
+    color: var(--white);
+    padding: 1em 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tabs .tab_header > div:hover, .tabs .tab_header > div.active {
+    color: var(--pink);
+}
+
+.tabs .tab_header > div.active {
+    width: 100%;
+    border-right: 5px solid var(--pink);
+    transition: .3s;
+}
+
+.tab_content_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;    
+}
+
+.content {
+    display: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.show_details {
+    display: block;
+}
+
+.tab_content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tab_content_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab_content_position {
+    font-size: var(--size-subtitle-header);
+    color: var(--white);
+    font-weight: 400;
+}
+
+.tab_content_period {
+    font-size: var(--size-subtitle);
+    color: var(--white);
+    font-weight: 300;
+}
+
+.tab_content_company {
+    font-size: var(--size-subtitle);
+    color: var(--pink);
+    font-weight: 300;
+}
+
+.tab_content_description {
+    font-size: var(--size-p);
+    color: var(--white);
+    font-weight: 200;
+}
+
+@media (max-width: 900px) {
+    .tabs {
+        flex-direction: column;
+    }
+    .tab_header {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border-right: none;
+        border-bottom: 1px solid var(--cinza);
+    }
+    .tabs .tab_header > div.active {
+        border-right: none;
+        border-bottom: 2px solid var(--pink);
+    }
+    .tab_content {
+        width: 100%;
+        height: 100%;
+    }
+}
