@@ -49,21 +49,51 @@
     text-align: center;
 }
 
-.border-gradiente {  
-    background: 
+.title-gradient {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-gradiente {
+    padding: 8px 28px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: var(--size-subtitle-header);
+    font-weight: 300;
+    position: relative;
+    background:
         linear-gradient(var(--dark-prim), var(--dark-prim)) padding-box,
         var(--gradient);
-        color: var(--white);
-      padding: 8px 28px;
-      border: 2px solid transparent;
-      border-radius: 10px;
-      display: inline-block;
-      font-size: var(--size-subtitle-header);
-      font-weight: 300;
+    z-index: 1;
+    transition: left 0.6s ease-in-out;
 }
+
+.border-gradiente:hover {
+    background-image: linear-gradient(to right, #7209B7, #F72585, #3A0CA3);
+    animation:slidebg 2s linear infinite;
+    animation: slidebg 5s linear infinite;
+}
+
+.border-gradiente:hover .title-gradient {
+    -webkit-text-fill-color: var(--dark-prim);
+}
+
+
 
 @media (max-width: 900px) {
     .home_container {
         width: 90%;
+    }
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
     }
 }

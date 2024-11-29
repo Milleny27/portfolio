@@ -12,6 +12,7 @@
     --pink: #EE4266;
 
     --gradient: linear-gradient(90deg, #7209B7 0%, #F72585 50%, #3A0CA3 100%);
+    --gradient-btn: linear-gradient(90deg, #7209B7 0%, #F72585 7%, #3A0CA3 12%);
     --gradient-scroll: linear-gradient(180deg, #7209B7 0%, #F72585 50%, #3A0CA3 100%);
     --gradient-fundo: radial-gradient(closest-side, rgba(247, 37, 133, 0.11), #040F0F);
 
