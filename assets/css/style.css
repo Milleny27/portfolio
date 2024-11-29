@@ -39,11 +39,6 @@ body {
     background: var(--dark-prim);
 }
 
-main {
-    width: 100%;
-    top: 100%;
-}
-
 section {
     width: 100%;
 }
@@ -67,6 +62,9 @@ section {
     border-radius: 0.6rem;
 }
 
+.swiper {
+    --swiper-theme-color: var(--pink);
+  }
 
 @media (max-width: 900px) {
     :root {
