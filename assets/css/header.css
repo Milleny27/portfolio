@@ -26,13 +26,11 @@
 
 .header_title {
     font-size: var(--size-title-header);
-    background: var(--gradient);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .header_nav a {
     font-size: var(--size-p);
+    font-weight: 200;
     position: relative;
     text-decoration: none;
 }

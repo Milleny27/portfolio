@@ -1,0 +1,69 @@
+@import "style.css";
+
+.home {
+    position: relative;
+    top: 10%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--gradient-fundo);
+    position: absolute;
+}
+
+.home_container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.home_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.home_title {
+    font-size: var(--size-title-hero);
+    font-weight: 600;
+    text-align: center;
+}
+
+.home_subtitle,
+.home_p {
+    color: var(--white);
+}
+
+.home_subtitle {
+    text-align: center;
+    font-size: var(--size-title-hero);
+    font-weight: 200;
+}
+
+.home_p {
+    font-size: var(--size-p);
+    font-weight: 300;
+    text-align: center;
+}
+
+.border-gradiente {  
+    background: 
+        linear-gradient(var(--dark-prim), var(--dark-prim)) padding-box,
+        var(--gradient);
+        color: var(--white);
+      padding: 8px 28px;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      display: inline-block;
+      font-size: var(--size-subtitle-header);
+      font-weight: 300;
+}
+
+@media (max-width: 900px) {
+    .home_container {
+        width: 90%;
+    }
+}
