@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const swiper = new Swiper(".swiper", {
+const swiperSkills = new Swiper(".swiperSkills", {
     slidesPerView: 3,
     spaceBetween: 20,
     grid: {
@@ -77,6 +77,56 @@ const swiper = new Swiper(".swiper", {
         grid: {
           fill: "row",
           rows: 1,
+        },
+      },
+    },
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: false,
+    },
+    loop: true,
+  });
+
+  const swiperProjects = new Swiper(".swiperProjects", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    grid: {
+      fill: "row",
+      rows: 1,
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    a11y: {
+      prevSlideMessage: "Previous slide",
+      nextSlideMessage: "Next slide",
+    },
+    breakpoints: {
+        500: {
+            slidesPerView: 2,
+            grid: {
+              fill: "row",
+              rows: 1,
+            },
+          },
+        900: {
+        slidesPerView: 3,
+        grid: {
+          fill: "row",
+          rows: 1,
+        },
+      },
+      1024: {
+        slidesPerView: 3,
+        grid: {
+          fill: "row",
+          rows: 2,
         },
       },
     },

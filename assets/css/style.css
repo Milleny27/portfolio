@@ -23,6 +23,7 @@
 
     --size-title: 24px;
     --size-p: 18px;
+    --size-footer: 18px;
     --size-subtitle: 14px;
 
     --font-family: "Poppins", sans-serif;
@@ -96,5 +97,6 @@ section {
 @media (max-width: 450px) {
     :root {
         --size-title-hero: 34px;
+        --size-footer: 11px;
     }
 }
