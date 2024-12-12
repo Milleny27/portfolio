@@ -109,14 +109,14 @@ const swiperSkills = new Swiper(".swiperSkills", {
     },
     breakpoints: {
         500: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             grid: {
               fill: "row",
               rows: 1,
             },
           },
         900: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         grid: {
           fill: "row",
           rows: 1,
